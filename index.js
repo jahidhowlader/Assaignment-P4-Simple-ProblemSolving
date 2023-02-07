@@ -108,7 +108,7 @@ Then addition 3 parameters like ((21 * first parameter) + (32 * second parameter
 
 function gemsToDiamond(first, second, third) {
     if ((typeof first !== 'number') || (typeof second !== 'number') || (typeof third !== 'number')) {
-        return 'Input can only take numbers, so please try again a positive number'
+        return 'input can taks three arguments on numbers, so please try again a positive number'
     } else {
         const powerOfFirst = 21 * first
         const powerOfSecond = 32 * second
@@ -121,3 +121,7 @@ function gemsToDiamond(first, second, third) {
         }
     }
 }
+
+
+
+
